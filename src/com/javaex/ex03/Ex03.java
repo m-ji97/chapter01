@@ -8,7 +8,7 @@ public class Ex03 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("숫자");
+		System.out.print("숫자: ");
 		int point = sc.nextInt();
 		
 		if(point > 0){
