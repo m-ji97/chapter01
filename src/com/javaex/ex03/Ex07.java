@@ -19,7 +19,7 @@ public class Ex07 {
 			System.out.println("c등급");
 		}else if(60 <= g){
 			System.out.println("d등급");
-		}else if(50 <= g){
+		}else if(59 == g){
 			System.out.println("f등급");
 		}
 	sc.close();		
