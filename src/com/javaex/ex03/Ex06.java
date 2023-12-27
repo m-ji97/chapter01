@@ -9,11 +9,15 @@ public class Ex06 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("점수를 입력하세요");
 		
-		int a = sc.nextInt();
+		int point = sc.nextInt();
 		
-		if(3<= a) {
-			System.out.println(a+"은(는) 3의 배수 입니다.");
+		if(point%3 == 0) { //3의 배수일때
+			System.out.println(point+"은(는) 3의 배수 입니다.");
+		}else {//3의 배수가 아닐때
+			
+			System.out.println(point+"은(는) 3의 배수 아닙니다.");
 		}
+		
 		sc.close();
 	}
 	
