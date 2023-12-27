@@ -11,15 +11,15 @@ public class Ex07 {
 		
 		int g = sc.nextInt();
 		
-		if (90 <= g ) {
+		if (90 <= g) {
 			System.out.println("A등급");
-		}else if(80 <= g) {
+		}else if(80 <= g) { //else if(90 > g && 80 <= g)
 			System.out.println("b등급");
-		}else if(70 <= g){
+		}else if(70 <= g){ //else if(80 > g && 70 <= g)
 			System.out.println("c등급");
-		}else if(60 <= g){
+		}else if(60 <= g){ //else if(70 > g && 60 <= g)
 			System.out.println("d등급");
-		}else if(59 == g){
+		}else if(60 >g){ //else if(60 > g)
 			System.out.println("f등급");
 		}
 	sc.close();		
